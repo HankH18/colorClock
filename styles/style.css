@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+}
+#clock {
+	font-size: 100px;
+	margin: 20vh 0 0 0;
+  	font-family: impact;
+  	color: white;
+}
+#background {
+	opacity: .5;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+#bar {
+	height: 20px;
+	max-width: 100%;
+	background: white;
+	border: 1px solid black;
+	border-radius: 25%;
+	padding: 0;
+	margin: 0 0 25vh 0;
+}
+body {
+	background: radial-gradient(circle, white, gray, black);
+}
