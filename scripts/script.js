@@ -6,8 +6,6 @@ var barNode = document.querySelector('#bar')
 
 var bodyNode = document.querySelector('body')
 
-clockNode.innerHTML = '00:00:00'
-
 var dynamicClock = function() {
 	var d = new Date()
 	var hour = d.getHours()
